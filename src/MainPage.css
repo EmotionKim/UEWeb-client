@@ -1,0 +1,107 @@
+/* 헤더 */
+div.header {
+  border-bottom: 2px solid #e4e4e4;
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+
+div.header p {
+  font-size: 25px;
+  padding: 10px 0;
+  font-weight: bold;
+  color: #5e52c1;
+}
+
+/* 배경 선택 페이지 */
+.bgContainer {
+  margin-top: 20px;
+}
+
+/* NEXT 버튼 */
+.btn_next {
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 30px;
+}
+  
+.ui.inverted.button  {
+  font-size: 19px;
+  background-color: #6C5CE7 !important;
+  border-radius: 30px;
+}
+
+.ui.inverted.button:hover {
+  background-color: #7a6ceb !important;
+  color: #ffffff !important;
+}
+
+.ui.inverted.button:focus {
+  font-size: 19px;
+  background-color: #6C5CE7;
+  color: #ffffff !important;
+}
+
+/* 이미지 편집 페이지 */
+.editContainer {
+  float: left;
+  width: 75%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.editTable {
+  margin: 15px auto;
+}
+
+.editTable > tr > th {
+  padding: 5px 5px;
+}
+
+.editTable > tr > td {
+  padding: 5px 15px;
+}
+
+.ui.positive.button.pos_right {
+  margin-right: 10px;
+}
+
+/* 물체이미지 바 */
+.objectBar {
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: #e4e4e4;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.objectBar > div {
+  margin: 15px 0;
+
+}
+
+.objectBar > div > img {
+  width: auto;
+  height: 100px;
+  margin: 10px 0;
+}
+
+.objectBar > div:hover {
+  background-color: #c9c9c9;
+}
+
+/* page3 */
+.resultContainer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.resultContainer > img {
+  height: 250px;
+  width: auto;
+  margin: 10px 
+}
+
+.ui.buttons.resultbtn {
+  margin-top: 25px;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SelectBackground from './SelectBackground';
 import reportWebVitals from './reportWebVitals';
+import MainPage from './MainPage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <SelectBackground />
+    <MainPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
